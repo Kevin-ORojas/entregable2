@@ -58,7 +58,7 @@ function App() {
   };
 
   return (
-    <div className= " App flex justify-center items-center min-h-screen bg-[url('public/images/bg.jpg')]  dark:bg-slate-800 bg-cover px-2">
+    <div className= " App flex justify-center items-center min-h-screen bg-[url('/images/bg.jpg')]  dark:bg-slate-800 bg-cover px-2">
            {weather ? <Weather weather={weather} temp={temp} /> : <Loader />}
 
            <div className="rounded-3xl bg-white flex justify-center items-center">
